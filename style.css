@@ -32,12 +32,61 @@
 }
 
 .icone{
-  margin: 50px 0px 50px 100px;
+  margin: 50px 0px 50px 130px;
   padding: 25px;
+}
+
+#secaovideo{
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
 }
 
 .textoinformativo{
   display: flex;
   align-items: center;
 
+}
+
+#titulovideo{
+  color: #247BA0;
+  margin-top: 50px;
+}
+
+#video{
+  margin: 50px 10px 50px 150px;
+}
+
+#carrossel{
+  background-color: #247BA0;
+  padding: 50px;
+}
+
+#titulo-carrossel{
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+#div-cards{
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.card{
+  margin-left: 100px;
+
+}
+
+#seta-esquerda{
+  display: none;
+}
+
+#bruna{
+  display: none;
+}
+
+.seta{
+  margin-top: 30%;
 }
