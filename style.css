@@ -60,6 +60,7 @@
 
 #video{
   margin: 50px 10px 50px 150px;
+  border-radius: 10px;
 }
 
 #carrossel{
