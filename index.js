@@ -8,7 +8,7 @@ function rolarParaDireita() {
     Leonardo.style = "display:none"
     Bruna.style = "display:flex"
     setaDireita.style = "display:none"
-    setaEsquerda.style = "display:flex; margin-top:50%"
+    setaEsquerda.style = "display:flex; margin-top:45%"
 }
 
 function rolarParaEsquerda() {
