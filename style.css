@@ -8,7 +8,7 @@
   margin-top: 50px;
 }
 
-#topo{
+#texto-topo{
   margin-left: 150px;
   margin-top: 50px;
 }
@@ -34,6 +34,11 @@
 .icone{
   margin: 50px 0px 50px 130px;
   padding: 25px;
+}
+
+.textoinformativo{
+  display: flex;
+  align-items: center;
 }
 
 #secaovideo{
@@ -76,14 +81,9 @@
 
 .card{
   margin-left: 100px;
-
 }
 
-#seta-esquerda{
-  display: none;
-}
-
-#bruna{
+#seta-esquerda, #bruna{
   display: none;
 }
 

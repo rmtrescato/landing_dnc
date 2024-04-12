@@ -7,7 +7,7 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Inter:slnt,wght@-10..0,100..900&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="style.css">
-   <script src="index.js"></script>
+   
    <title>Escola DNC</title>
 </head>
 
@@ -15,7 +15,7 @@
    <!-- MENU SUPERIOR -->
    <div id="menusuperior">
       <a href="https://acessorioswebb.com.br/"><img src="./imagens/logo.svg" id="logo" alt="Logo DNC"></a>
-      <h1 id="topo">Dê os primeiros passos da sua carreira em Tecnologia</h1> <br>
+      <h1 id="texto-topo">Dê os primeiros passos da sua carreira em Tecnologia</h1> <br>
       <p id="texto-menusuperior">Inscreva-se no curso gratuito de Introdução à <br>
       Tecnologia da DNC School e aprenda os principais <br>
       fundamentos para construir experiências efetivas.</p><br>
@@ -51,11 +51,11 @@
         
       <!-- DIVISAO DOS CARDS -->  
          <div id="div-cards">
-            <img id="seta-esquerda" class="seta" src="./icones/seta-esquerda.svg" alt="">
+            <img id="seta-esquerda" onclick="rolarParaEsquerda()" class="seta" src="./icones/seta-esquerda.svg" alt="">
             <img id="leonardo" class="card" src="./cards/leonardo.svg" alt="">
             <img id="samantha" class="card" src="./cards/samantha.svg" alt="">
             <img id="bruna" class="card" src="./cards/bruna.svg" alt=""> 
-            <img id="seta-direita" class="seta" src="./icones/seta-direita.svg" alt=""> 
+            <img id="seta-direita" onclick="rolarParaDireita()" class="seta" src="./icones/seta-direita.svg" alt=""> 
          </div>
          
       </div>
@@ -64,7 +64,7 @@
 
 
 
-
+   <script src="index.js"></script>
 
 </body>
 </html>
