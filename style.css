@@ -1,0 +1,43 @@
+*{
+  margin: 0px;
+  font-family: 'Inter';
+}
+
+#logo {
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+#topo{
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+#texto-menusuperior{
+  margin-left: 150px;
+  margin-top: 30px;
+  padding-bottom: 100px;
+}
+
+#menusuperior{
+  background-image: url(imagens/fundo-menusuperior.svg);
+  color: aliceblue;
+}
+
+#menuinformacional{
+  background-color: #eaece5;
+  display: grid;
+  grid-auto-flow: column;
+  columns: auto;
+}
+
+.icone{
+  margin: 50px 0px 50px 100px;
+  padding: 25px;
+}
+
+.textoinformativo{
+  display: flex;
+  align-items: center;
+
+}
